@@ -12,7 +12,7 @@ class CalendarCli < Formula
 
   def install
     bin.install "calendar-cli"
-    bin.install_symlink "calendar-cli" => "ccli"
+    bin.install_symlink "calendar-cli" => "ccal"
   end
 
   test do
