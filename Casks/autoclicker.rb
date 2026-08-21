@@ -9,5 +9,11 @@ cask "autoclicker" do
 
   app "Autoclicker.app"
 
+  # macOS 15+ quarantines even brew-downloaded apps; strip it so the app opens directly
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Autoclicker.app"]
+  end
+
   zap trash: "~/Library/Preferences/local.autoclicker.plist"
 end
