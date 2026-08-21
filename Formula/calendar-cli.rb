@@ -1,9 +1,9 @@
 class CalendarCli < Formula
   desc "TUI calendar app with Google Calendar sync"
   homepage "https://github.com/ynui/calendar-cli"
-  url "https://github.com/ynui/calendar-cli/releases/download/v0.1.6/calendar-cli-v0.1.6-universal.tar.gz"
-  version "0.1.6"
-  sha256 "5c5de7b2b74cee1d11ac47f5059163aa013dab3bb609b6ccd72a15d4219216d0"
+  url "https://github.com/ynui/calendar-cli/releases/download/v0.1.7/calendar-cli-v0.1.7-universal.tar.gz"
+  version "0.1.7"
+  sha256 "a0c3d3bcba63eaf54cdfd38f4315b5e0dc3c723035f1e26fedab6011499078c9"
 
   head "https://github.com/ynui/calendar-cli.git", branch: "main"
 
