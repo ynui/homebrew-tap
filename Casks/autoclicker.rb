@@ -1,6 +1,6 @@
 cask "autoclicker" do
-  version "1.0.0"
-  sha256 "c3347a4278a9ca6bf7806042c27f35a48ed5a2b2e8dcbf712d2407bfe99304e3"
+  version "1.0.1"
+  sha256 "ed75a3b62ed0380212a9d548c5a8a0465ca8965dd2786534c019c11e53886d54"
 
   url "https://github.com/ynui/autoclicker/releases/download/v#{version}/Autoclicker.zip"
   name "Autoclicker"
