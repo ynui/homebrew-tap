@@ -8,22 +8,22 @@ class HomeAssistantCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/ynui/home-assistant-cli/releases/download/v0.3.0/home-assistant-cli-v0.3.0-darwin-arm64.tar.gz"
-      sha256 "6827f085b6def0a8ee5892796f37f847a8633c4256796936da1c7df9e20d6e2b"
+      sha256 "8d4e5fb624ff11bf30aa32ccbc48df08d47cf62d76d87d4ca68fbd97a04f9995"
     end
     on_intel do
       url "https://github.com/ynui/home-assistant-cli/releases/download/v0.3.0/home-assistant-cli-v0.3.0-darwin-amd64.tar.gz"
-      sha256 "ac3e675117a330e906ad2423aeded6c7c7c15baf4b6447a3ba9200f41c2a5fcf"
+      sha256 "37f03895f566ff70275ceda95c11b1c2d13ce47ac14d91548bb397c45639e5f8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ynui/home-assistant-cli/releases/download/v0.3.0/home-assistant-cli-v0.3.0-linux-arm64.tar.gz"
-      sha256 "5d0eaa7916d3b8be85309df1a493b1a1e6ebc04b957d4281422f06c096d79f64"
+      sha256 "6a86e6f949b2db656c7e58694f0ce5ae17085f4506b7d3af042e41e1367667b3"
     end
     on_intel do
       url "https://github.com/ynui/home-assistant-cli/releases/download/v0.3.0/home-assistant-cli-v0.3.0-linux-amd64.tar.gz"
-      sha256 "e3f498a522983c38818be718803c568288487f931fd14cb57d3f34a6658d4728"
+      sha256 "9fd41cbb103e2631ebdd13dfd93aaaa2667e2530f7990259417840e37c88f5dc"
     end
   end
 
