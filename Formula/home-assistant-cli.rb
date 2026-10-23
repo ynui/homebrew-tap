@@ -1,29 +1,29 @@
 class HomeAssistantCli < Formula
   desc "Command-line client and TUI for Home Assistant"
   homepage "https://github.com/ynui/home-assistant-cli"
-  url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.0/home-assistant-cli-v0.7.0-darwin-arm64.tar.gz"
-  version "0.7.0"
+  url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.1/home-assistant-cli-v0.7.1-darwin-arm64.tar.gz"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.0/home-assistant-cli-v0.7.0-darwin-arm64.tar.gz"
-      sha256 "8ea2646b6e3d5cd9015ce448fbd7bec577e6eb0b2f5e0da57e84caf837a2c829"
+      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.1/home-assistant-cli-v0.7.1-darwin-arm64.tar.gz"
+      sha256 "5a8b3ef2aaa6c0c59bd2f3cc32bfc91418febf981e0b1bcb3d1c9ecb49f365c6"
     end
     on_intel do
-      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.0/home-assistant-cli-v0.7.0-darwin-amd64.tar.gz"
-      sha256 "b2d8471166c75a438bcefd56f29b722d9de56b5d73e15c012949283e11133969"
+      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.1/home-assistant-cli-v0.7.1-darwin-amd64.tar.gz"
+      sha256 "2343ac7399ac3a476871378c292a69ae5ee4f04f56d04222e90828bc828b1597"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.0/home-assistant-cli-v0.7.0-linux-arm64.tar.gz"
-      sha256 "f8b8d5e9c8540ec65e0fe496fbade2fec881de9cf2641c84156b2ed52d399902"
+      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.1/home-assistant-cli-v0.7.1-linux-arm64.tar.gz"
+      sha256 "7456ff85f5bb502ba288bfbd040ddef0549e637a2a26b1434d6feb8cac3d7a13"
     end
     on_intel do
-      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.0/home-assistant-cli-v0.7.0-linux-amd64.tar.gz"
-      sha256 "319ff40eb84bc1e3fadb7bae19acc247bcf773cfddf156a165ea9ec8007a0687"
+      url "https://github.com/ynui/home-assistant-cli/releases/download/v0.7.1/home-assistant-cli-v0.7.1-linux-amd64.tar.gz"
+      sha256 "f29bbc16afa876e994ec4442b41bcee3a1d8976951f980514da25083b76e01e0"
     end
   end
 
