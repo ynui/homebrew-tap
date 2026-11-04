@@ -1,27 +1,27 @@
 class Inlet < Formula
   desc "Expose local HTTP apps through stable public URLs"
   homepage "https://github.com/ynui/inlet"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/ynui/inlet/releases/download/v0.2.0/inlet-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "770c20d183708451b0ff925210291307efb16e8c116582f36c3fc004097ab58c"
+      url "https://github.com/ynui/inlet/releases/download/v0.2.1/inlet-v0.2.1-darwin-arm64.tar.gz"
+      sha256 "b57ecd439fd8793f789d338caade9cd45276d6000001fb90c218b7ecdcb661a0"
     end
     on_intel do
-      url "https://github.com/ynui/inlet/releases/download/v0.2.0/inlet-v0.2.0-darwin-amd64.tar.gz"
-      sha256 "df967e90fe264bc9c63c21413aed69bd5f28686ac5a57aafda6fd641142a8d6f"
+      url "https://github.com/ynui/inlet/releases/download/v0.2.1/inlet-v0.2.1-darwin-amd64.tar.gz"
+      sha256 "acc10902047f3a2898be8bee06756acdede6f851be04d7cc4590c9304c8665fe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ynui/inlet/releases/download/v0.2.0/inlet-v0.2.0-linux-arm64.tar.gz"
-      sha256 "37c439893c28d14cab75f404a49bc00a095d630255a0018941669bb5814c3134"
+      url "https://github.com/ynui/inlet/releases/download/v0.2.1/inlet-v0.2.1-linux-arm64.tar.gz"
+      sha256 "ee28c30b791de2aec3447f31b06f096c8ffb2b793128409a255b3f47ba8e8d64"
     end
     on_intel do
-      url "https://github.com/ynui/inlet/releases/download/v0.2.0/inlet-v0.2.0-linux-amd64.tar.gz"
-      sha256 "55cc1d6047aed0283a8a400eeb7f5601fe51a9040fe0fe1fd3f21bb91cb86b32"
+      url "https://github.com/ynui/inlet/releases/download/v0.2.1/inlet-v0.2.1-linux-amd64.tar.gz"
+      sha256 "be79ea790c3b9775d9d6d5b286017f2cc304e20a54499caf1ddbf0ad3547627d"
     end
   end
 
